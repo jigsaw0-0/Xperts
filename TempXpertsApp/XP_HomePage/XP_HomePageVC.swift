@@ -26,6 +26,36 @@ class XP_HomePageVC: XP_BaseVC {
     var section2Data : [Int] = []
     var section3Data : [Int] = []
     var locationService : Locator
+
+    
+    
+    
+    
+    
+    
+    enum XPHomeSectionType : String {
+        case HeroCarousel
+        case Hotkeys
+        case Carousel
+        case Packages
+        case ReBook
+        
+    }
+    var currentSections : [XPHomeSectionType] = [.HeroCarousel, .Hotkeys, .Carousel, .Packages, .Carousel, .ReBook, .Carousel]
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     init?(coder : NSCoder, locationService : LocationService) {
@@ -52,16 +82,29 @@ class XP_HomePageVC: XP_BaseVC {
         //        collectionView.backgroundColor = .red
         collectionView.register(XP_HomePageHotKeyCell.self, forCellWithReuseIdentifier: XP_HomePageHotKeyCell.identifier)
         collectionView.frame = view.bounds
+        print("------------- 1")
+
         collectionView.delegate = self
+        print("------------- 1.5")
+
         collectionView.dataSource = self
         
-        
+        print("------------- 2")
+
         
         DispatchQueue.main.asyncAfter(deadline: .now()) { [weak self] in
             self?.section0Data = Array(repeating: 1, count: 10)
             self?.section1Data = Array(repeating: 1, count: 8)
             self?.section2Data = Array(repeating: 1, count: 9)
             self?.section3Data = Array(repeating: 1, count: 10)
+            
+            self?.section0Data = Array(repeating: 1, count: 10)
+            self?.section1Data = Array(repeating: 1, count: 8)
+            self?.section2Data = Array(repeating: 1, count: 9)
+            self?.section3Data = Array(repeating: 1, count: 10)
+            
+            print("------------- 3")
+
             self?.collectionView.reloadData()
             
         }
@@ -69,7 +112,11 @@ class XP_HomePageVC: XP_BaseVC {
         fetchData()
         
         
-        
+        delay(4) {
+            print("------------- 4")
+            
+            self.collectionView.reloadData()
+        }
         
         // Do any additional setup after loading the view.
     }
@@ -129,18 +176,18 @@ extension XP_HomePageVC : UICollectionViewDataSource, UICollectionViewDelegate {
     }
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
-        return 4
+        return currentSections.count
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
-        switch section {
-        case 0:
+        switch currentSections[section] {
+        case .HeroCarousel:
             return section0Data.count
-        case 1:
+        case .Carousel:
             return section1Data.count
-        case 2:
+        case .Hotkeys:
             return section2Data.count
-        case 3:
+        case .Packages:
             return section3Data.count
             
         default:
@@ -175,6 +222,9 @@ extension XP_HomePageVC : UICollectionViewDataSource, UICollectionViewDelegate {
     class func createLayoutDiffSection() -> UICollectionViewLayout {
         let layout = UICollectionViewCompositionalLayout { (sectionIndex: Int,
                                                             layoutEnvironment: NSCollectionLayoutEnvironment) -> NSCollectionLayoutSection? in
+            
+           
+            print("Layout called for section Index \(sectionIndex)")
             
             var columns = 1
             switch sectionIndex{

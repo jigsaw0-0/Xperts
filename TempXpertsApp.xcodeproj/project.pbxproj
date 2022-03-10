@@ -122,6 +122,8 @@
 		80244CB527D2269F00C542AE /* OpenSansCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80244CB027D223AB00C542AE /* OpenSansCondensed-Bold.ttf */; };
 		80244CB627D2269F00C542AE /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80244CAC27D223AB00C542AE /* OpenSans-Bold.ttf */; };
 		80244CB727D2269F00C542AE /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80244CAD27D223AB00C542AE /* OpenSans-ExtraBold.ttf */; };
+		80256DFA27D9D8EB0038F1B1 /* XPHome.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80256DF927D9D8EB0038F1B1 /* XPHome.xcassets */; };
+		80256DFC27D9D8F70038F1B1 /* XPCommon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80256DFB27D9D8F70038F1B1 /* XPCommon.xcassets */; };
 		8088051C27C9D28200F351AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8088051B27C9D28200F351AF /* AppDelegate.swift */; };
 		8088051E27C9D28200F351AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8088051D27C9D28200F351AF /* SceneDelegate.swift */; };
 		8088052027C9D28200F351AF /* XP_HomePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8088051F27C9D28200F351AF /* XP_HomePageVC.swift */; };
@@ -131,6 +133,7 @@
 		8088053327C9D28300F351AF /* TempXpertsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8088053227C9D28300F351AF /* TempXpertsAppTests.swift */; };
 		8088053E27C9D28300F351AF /* TempXpertsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8088053D27C9D28300F351AF /* TempXpertsAppUITests.swift */; };
 		8088054C27C9D3C200F351AF /* XP_HomePageHotKeyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8088054B27C9D3C200F351AF /* XP_HomePageHotKeyCell.swift */; };
+		80C0D7B127D4936700041033 /* XP_HomePageGenericModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C0D7B027D4936700041033 /* XP_HomePageGenericModels.swift */; };
 		80F3753927CCA75F00E61545 /* CodeSamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F3753827CCA75F00E61545 /* CodeSamples.swift */; };
 		80F7EB1F27CC853900091EC2 /* XP_HomePageSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F7EB1E27CC853900091EC2 /* XP_HomePageSectionHeaderView.swift */; };
 /* End PBXBuildFile section */
@@ -269,6 +272,8 @@
 		80244CAE27D223AB00C542AE /* OpenSansCondensed-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSansCondensed-LightItalic.ttf"; sourceTree = "<group>"; };
 		80244CAF27D223AB00C542AE /* OpenSansCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSansCondensed-Light.ttf"; sourceTree = "<group>"; };
 		80244CB027D223AB00C542AE /* OpenSansCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSansCondensed-Bold.ttf"; sourceTree = "<group>"; };
+		80256DF927D9D8EB0038F1B1 /* XPHome.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = XPHome.xcassets; sourceTree = "<group>"; };
+		80256DFB27D9D8F70038F1B1 /* XPCommon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = XPCommon.xcassets; sourceTree = "<group>"; };
 		8088051827C9D28200F351AF /* TempXpertsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TempXpertsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8088051B27C9D28200F351AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8088051D27C9D28200F351AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -284,6 +289,7 @@
 		8088053D27C9D28300F351AF /* TempXpertsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempXpertsAppUITests.swift; sourceTree = "<group>"; };
 		8088053F27C9D28300F351AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8088054B27C9D3C200F351AF /* XP_HomePageHotKeyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XP_HomePageHotKeyCell.swift; sourceTree = "<group>"; };
+		80C0D7B027D4936700041033 /* XP_HomePageGenericModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XP_HomePageGenericModels.swift; sourceTree = "<group>"; };
 		80F3753827CCA75F00E61545 /* CodeSamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeSamples.swift; sourceTree = "<group>"; };
 		80F7EB1E27CC853900091EC2 /* XP_HomePageSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XP_HomePageSectionHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -342,6 +348,7 @@
 		80244BA327CF0DAB00C542AE /* XP_HomePage */ = {
 			isa = PBXGroup;
 			children = (
+				80C0D7AF27D4930300041033 /* Models */,
 				8088051F27C9D28200F351AF /* XP_HomePageVC.swift */,
 				80F7EB1E27CC853900091EC2 /* XP_HomePageSectionHeaderView.swift */,
 			);
@@ -576,6 +583,15 @@
 			path = OpensSans;
 			sourceTree = "<group>";
 		};
+		80256DF827D9D8CD0038F1B1 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				80256DF927D9D8EB0038F1B1 /* XPHome.xcassets */,
+				80256DFB27D9D8F70038F1B1 /* XPCommon.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		8088050F27C9D28200F351AF = {
 			isa = PBXGroup;
 			children = (
@@ -599,6 +615,7 @@
 		8088051A27C9D28200F351AF /* TempXpertsApp */ = {
 			isa = PBXGroup;
 			children = (
+				80256DF827D9D8CD0038F1B1 /* Assets */,
 				80244CA827D2239900C542AE /* Fonts */,
 				80244C9227D221A900C542AE /* Certificates */,
 				80244C8F27D220E600C542AE /* XPMainNavigationController */,
@@ -643,6 +660,14 @@
 				8088053F27C9D28300F351AF /* Info.plist */,
 			);
 			path = TempXpertsAppUITests;
+			sourceTree = "<group>";
+		};
+		80C0D7AF27D4930300041033 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				80C0D7B027D4936700041033 /* XP_HomePageGenericModels.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -768,6 +793,7 @@
 				80244CB127D2269F00C542AE /* OpenSans-Regular.ttf in Resources */,
 				80244C6B27D2080F00C542AE /* categoryLanding.storyboard in Resources */,
 				80244BE127CF893F00C542AE /* MyJDSubStagePhotoCollectionCell.xib in Resources */,
+				80256DFC27D9D8F70038F1B1 /* XPCommon.xcassets in Resources */,
 				80244CB527D2269F00C542AE /* OpenSansCondensed-Bold.ttf in Resources */,
 				80244CA527D2227800C542AE /* justdial.com.der in Resources */,
 				80244CB227D2269F00C542AE /* OpenSansCondensed-Light.ttf in Resources */,
@@ -780,6 +806,7 @@
 				80244CA127D2227800C542AE /* securepg.justdial.com.der in Resources */,
 				80244BEC27CF893F00C542AE /* MyJDSubStageSectionHeaderView.xib in Resources */,
 				80244CB727D2269F00C542AE /* OpenSans-ExtraBold.ttf in Resources */,
+				80256DFA27D9D8EB0038F1B1 /* XPHome.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -831,6 +858,7 @@
 				80244C0927D1BDC800C542AE /* Map.swift in Sources */,
 				80244C5A27D1C3C100C542AE /* AFError.swift in Sources */,
 				80244BEA27CF893F00C542AE /* MyJDSubStageController.swift in Sources */,
+				80C0D7B127D4936700041033 /* XP_HomePageGenericModels.swift in Sources */,
 				80244BA627CF120600C542AE /* XP_BaseVC.swift in Sources */,
 				80244C1027D1BEB500C542AE /* EnumTransform.swift in Sources */,
 				80244BD727CF893F00C542AE /* MyJDSubStagePrevOrderDetailsModel.swift in Sources */,
