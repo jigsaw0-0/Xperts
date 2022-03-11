@@ -124,6 +124,8 @@
 		80244CB727D2269F00C542AE /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80244CAD27D223AB00C542AE /* OpenSans-ExtraBold.ttf */; };
 		80256DFA27D9D8EB0038F1B1 /* XPHome.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80256DF927D9D8EB0038F1B1 /* XPHome.xcassets */; };
 		80256DFC27D9D8F70038F1B1 /* XPCommon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80256DFB27D9D8F70038F1B1 /* XPCommon.xcassets */; };
+		80256DFF27DA351B0038F1B1 /* XPHomeFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80256DFE27DA351B0038F1B1 /* XPHomeFooterView.xib */; };
+		80256E0127DA35340038F1B1 /* XPHomeFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80256E0027DA35340038F1B1 /* XPHomeFooterView.swift */; };
 		8088051C27C9D28200F351AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8088051B27C9D28200F351AF /* AppDelegate.swift */; };
 		8088051E27C9D28200F351AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8088051D27C9D28200F351AF /* SceneDelegate.swift */; };
 		8088052027C9D28200F351AF /* XP_HomePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8088051F27C9D28200F351AF /* XP_HomePageVC.swift */; };
@@ -274,7 +276,9 @@
 		80244CB027D223AB00C542AE /* OpenSansCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSansCondensed-Bold.ttf"; sourceTree = "<group>"; };
 		80256DF927D9D8EB0038F1B1 /* XPHome.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = XPHome.xcassets; sourceTree = "<group>"; };
 		80256DFB27D9D8F70038F1B1 /* XPCommon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = XPCommon.xcassets; sourceTree = "<group>"; };
-		8088051827C9D28200F351AF /* TempXpertsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TempXpertsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80256DFE27DA351B0038F1B1 /* XPHomeFooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XPHomeFooterView.xib; sourceTree = "<group>"; };
+		80256E0027DA35340038F1B1 /* XPHomeFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XPHomeFooterView.swift; sourceTree = "<group>"; };
+		8088051827C9D28200F351AF /* XpertsUserApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XpertsUserApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8088051B27C9D28200F351AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8088051D27C9D28200F351AF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8088051F27C9D28200F351AF /* XP_HomePageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XP_HomePageVC.swift; sourceTree = "<group>"; };
@@ -282,10 +286,10 @@
 		8088052427C9D28300F351AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8088052727C9D28300F351AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8088052927C9D28300F351AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8088052E27C9D28300F351AF /* TempXpertsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempXpertsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8088052E27C9D28300F351AF /* XpertsUserAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XpertsUserAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8088053227C9D28300F351AF /* TempXpertsAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempXpertsAppTests.swift; sourceTree = "<group>"; };
 		8088053427C9D28300F351AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8088053927C9D28300F351AF /* TempXpertsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempXpertsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8088053927C9D28300F351AF /* XpertsUserAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XpertsUserAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8088053D27C9D28300F351AF /* TempXpertsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempXpertsAppUITests.swift; sourceTree = "<group>"; };
 		8088053F27C9D28300F351AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8088054B27C9D3C200F351AF /* XP_HomePageHotKeyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XP_HomePageHotKeyCell.swift; sourceTree = "<group>"; };
@@ -348,6 +352,7 @@
 		80244BA327CF0DAB00C542AE /* XP_HomePage */ = {
 			isa = PBXGroup;
 			children = (
+				80256DFD27DA34F20038F1B1 /* Views */,
 				80C0D7AF27D4930300041033 /* Models */,
 				8088051F27C9D28200F351AF /* XP_HomePageVC.swift */,
 				80F7EB1E27CC853900091EC2 /* XP_HomePageSectionHeaderView.swift */,
@@ -544,7 +549,7 @@
 			path = XPMainNavigationController;
 			sourceTree = "<group>";
 		};
-		80244C9227D221A900C542AE /* Certificates */ = {
+		80244C9227D221A900C542AE /* SSL Certificates */ = {
 			isa = PBXGroup;
 			children = (
 				80244C9B27D221E700C542AE /* frank4dd-cacert.der */,
@@ -558,7 +563,7 @@
 				80244C9827D221E700C542AE /* Secuepg_justdial_com_intermediate.der */,
 				80244C9A27D221E700C542AE /* securepg.justdial.com.der */,
 			);
-			path = Certificates;
+			path = "SSL Certificates";
 			sourceTree = "<group>";
 		};
 		80244CA827D2239900C542AE /* Fonts */ = {
@@ -592,6 +597,15 @@
 			path = Assets;
 			sourceTree = "<group>";
 		};
+		80256DFD27DA34F20038F1B1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				80256DFE27DA351B0038F1B1 /* XPHomeFooterView.xib */,
+				80256E0027DA35340038F1B1 /* XPHomeFooterView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		8088050F27C9D28200F351AF = {
 			isa = PBXGroup;
 			children = (
@@ -605,9 +619,9 @@
 		8088051927C9D28200F351AF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8088051827C9D28200F351AF /* TempXpertsApp.app */,
-				8088052E27C9D28300F351AF /* TempXpertsAppTests.xctest */,
-				8088053927C9D28300F351AF /* TempXpertsAppUITests.xctest */,
+				8088051827C9D28200F351AF /* XpertsUserApp.app */,
+				8088052E27C9D28300F351AF /* XpertsUserAppTests.xctest */,
+				8088053927C9D28300F351AF /* XpertsUserAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -617,7 +631,7 @@
 			children = (
 				80256DF827D9D8CD0038F1B1 /* Assets */,
 				80244CA827D2239900C542AE /* Fonts */,
-				80244C9227D221A900C542AE /* Certificates */,
+				80244C9227D221A900C542AE /* SSL Certificates */,
 				80244C8F27D220E600C542AE /* XPMainNavigationController */,
 				80244C8C27D21DDC00C542AE /* Factories */,
 				80244C7B27D20B0C00C542AE /* ODS */,
@@ -673,9 +687,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8088051727C9D28200F351AF /* TempXpertsApp */ = {
+		8088051727C9D28200F351AF /* XpertsUserApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8088054227C9D28300F351AF /* Build configuration list for PBXNativeTarget "TempXpertsApp" */;
+			buildConfigurationList = 8088054227C9D28300F351AF /* Build configuration list for PBXNativeTarget "XpertsUserApp" */;
 			buildPhases = (
 				8088051427C9D28200F351AF /* Sources */,
 				8088051527C9D28200F351AF /* Frameworks */,
@@ -685,17 +699,17 @@
 			);
 			dependencies = (
 			);
-			name = TempXpertsApp;
+			name = XpertsUserApp;
 			packageProductDependencies = (
 				80244BF027CF8CB500C542AE /* SDWebImage */,
 			);
 			productName = TempXpertsApp;
-			productReference = 8088051827C9D28200F351AF /* TempXpertsApp.app */;
+			productReference = 8088051827C9D28200F351AF /* XpertsUserApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8088052D27C9D28300F351AF /* TempXpertsAppTests */ = {
+		8088052D27C9D28300F351AF /* XpertsUserAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8088054527C9D28300F351AF /* Build configuration list for PBXNativeTarget "TempXpertsAppTests" */;
+			buildConfigurationList = 8088054527C9D28300F351AF /* Build configuration list for PBXNativeTarget "XpertsUserAppTests" */;
 			buildPhases = (
 				8088052A27C9D28300F351AF /* Sources */,
 				8088052B27C9D28300F351AF /* Frameworks */,
@@ -706,14 +720,14 @@
 			dependencies = (
 				8088053027C9D28300F351AF /* PBXTargetDependency */,
 			);
-			name = TempXpertsAppTests;
+			name = XpertsUserAppTests;
 			productName = TempXpertsAppTests;
-			productReference = 8088052E27C9D28300F351AF /* TempXpertsAppTests.xctest */;
+			productReference = 8088052E27C9D28300F351AF /* XpertsUserAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8088053827C9D28300F351AF /* TempXpertsAppUITests */ = {
+		8088053827C9D28300F351AF /* XpertsUserAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8088054827C9D28300F351AF /* Build configuration list for PBXNativeTarget "TempXpertsAppUITests" */;
+			buildConfigurationList = 8088054827C9D28300F351AF /* Build configuration list for PBXNativeTarget "XpertsUserAppUITests" */;
 			buildPhases = (
 				8088053527C9D28300F351AF /* Sources */,
 				8088053627C9D28300F351AF /* Frameworks */,
@@ -724,9 +738,9 @@
 			dependencies = (
 				8088053B27C9D28300F351AF /* PBXTargetDependency */,
 			);
-			name = TempXpertsAppUITests;
+			name = XpertsUserAppUITests;
 			productName = TempXpertsAppUITests;
-			productReference = 8088053927C9D28300F351AF /* TempXpertsAppUITests.xctest */;
+			productReference = 8088053927C9D28300F351AF /* XpertsUserAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -751,7 +765,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8088051327C9D28200F351AF /* Build configuration list for PBXProject "TempXpertsApp" */;
+			buildConfigurationList = 8088051327C9D28200F351AF /* Build configuration list for PBXProject "XpertsUserApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -767,9 +781,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8088051727C9D28200F351AF /* TempXpertsApp */,
-				8088052D27C9D28300F351AF /* TempXpertsAppTests */,
-				8088053827C9D28300F351AF /* TempXpertsAppUITests */,
+				8088051727C9D28200F351AF /* XpertsUserApp */,
+				8088052D27C9D28300F351AF /* XpertsUserAppTests */,
+				8088053827C9D28300F351AF /* XpertsUserAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -783,6 +797,7 @@
 				80244CA627D2227800C542AE /* jdxperts_leaf.der in Resources */,
 				80244C9E27D2227800C542AE /* jdmart-justdial.der in Resources */,
 				80244BD527CF893F00C542AE /* MyJDSubStageStoryBoard.storyboard in Resources */,
+				80256DFF27DA351B0038F1B1 /* XPHomeFooterView.xib in Resources */,
 				80244BE827CF893F00C542AE /* MySubStageDescriptionCell.xib in Resources */,
 				80244CA427D2227800C542AE /* intermediate.der in Resources */,
 				80244BDD27CF893F00C542AE /* MyJDSubTypeCellWithPhotoTableViewCell.xib in Resources */,
@@ -840,6 +855,7 @@
 				80244BDC27CF893F00C542AE /* MyJDSubStageTableCell.swift in Sources */,
 				80244C2727D1C08800C542AE /* Operators.swift in Sources */,
 				80244C0B27D1BDC800C542AE /* Mapper.swift in Sources */,
+				80256E0127DA35340038F1B1 /* XPHomeFooterView.swift in Sources */,
 				80244C3227D1C13B00C542AE /* UIColor+Palette.swift in Sources */,
 				80244C2D27D1C0BF00C542AE /* TransformOperators.swift in Sources */,
 				80244BCD27CF893F00C542AE /* MySubStageDescriptionCell.swift in Sources */,
@@ -953,12 +969,12 @@
 /* Begin PBXTargetDependency section */
 		8088053027C9D28300F351AF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8088051727C9D28200F351AF /* TempXpertsApp */;
+			target = 8088051727C9D28200F351AF /* XpertsUserApp */;
 			targetProxy = 8088052F27C9D28300F351AF /* PBXContainerItemProxy */;
 		};
 		8088053B27C9D28300F351AF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8088051727C9D28200F351AF /* TempXpertsApp */;
+			target = 8088051727C9D28200F351AF /* XpertsUserApp */;
 			targetProxy = 8088053A27C9D28300F351AF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1157,7 +1173,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TempXpertsApp.app/TempXpertsApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XpertsUserApp.app/XpertsUserApp";
 			};
 			name = Debug;
 		};
@@ -1179,7 +1195,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TempXpertsApp.app/TempXpertsApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XpertsUserApp.app/XpertsUserApp";
 			};
 			name = Release;
 		};
@@ -1226,7 +1242,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8088051327C9D28200F351AF /* Build configuration list for PBXProject "TempXpertsApp" */ = {
+		8088051327C9D28200F351AF /* Build configuration list for PBXProject "XpertsUserApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8088054027C9D28300F351AF /* Debug */,
@@ -1235,7 +1251,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8088054227C9D28300F351AF /* Build configuration list for PBXNativeTarget "TempXpertsApp" */ = {
+		8088054227C9D28300F351AF /* Build configuration list for PBXNativeTarget "XpertsUserApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8088054327C9D28300F351AF /* Debug */,
@@ -1244,7 +1260,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8088054527C9D28300F351AF /* Build configuration list for PBXNativeTarget "TempXpertsAppTests" */ = {
+		8088054527C9D28300F351AF /* Build configuration list for PBXNativeTarget "XpertsUserAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8088054627C9D28300F351AF /* Debug */,
@@ -1253,7 +1269,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8088054827C9D28300F351AF /* Build configuration list for PBXNativeTarget "TempXpertsAppUITests" */ = {
+		8088054827C9D28300F351AF /* Build configuration list for PBXNativeTarget "XpertsUserAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8088054927C9D28300F351AF /* Debug */,
