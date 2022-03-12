@@ -609,7 +609,7 @@
 		8088050F27C9D28200F351AF = {
 			isa = PBXGroup;
 			children = (
-				8088051A27C9D28200F351AF /* TempXpertsApp */,
+				8088051A27C9D28200F351AF /* XpertsUserApp */,
 				8088053127C9D28300F351AF /* TempXpertsAppTests */,
 				8088053C27C9D28300F351AF /* TempXpertsAppUITests */,
 				8088051927C9D28200F351AF /* Products */,
@@ -626,7 +626,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8088051A27C9D28200F351AF /* TempXpertsApp */ = {
+		8088051A27C9D28200F351AF /* XpertsUserApp */ = {
 			isa = PBXGroup;
 			children = (
 				80256DF827D9D8CD0038F1B1 /* Assets */,
@@ -655,7 +655,7 @@
 				8088054B27C9D3C200F351AF /* XP_HomePageHotKeyCell.swift */,
 				80F3753827CCA75F00E61545 /* CodeSamples.swift */,
 			);
-			path = TempXpertsApp;
+			path = XpertsUserApp;
 			sourceTree = "<group>";
 		};
 		8088053127C9D28300F351AF /* TempXpertsAppTests */ = {
@@ -1122,7 +1122,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8XJT52R4F4;
-				INFOPLIST_FILE = TempXpertsApp/Info.plist;
+				INFOPLIST_FILE = XpertsUserApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1142,7 +1142,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8XJT52R4F4;
-				INFOPLIST_FILE = TempXpertsApp/Info.plist;
+				INFOPLIST_FILE = XpertsUserApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
